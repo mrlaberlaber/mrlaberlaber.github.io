@@ -1,0 +1,3 @@
+- https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html
+- https://caniuse.com/#feat=webgl
+- https://caniuse.com/#feat=stream
