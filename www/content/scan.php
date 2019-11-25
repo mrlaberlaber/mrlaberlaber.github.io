@@ -19,17 +19,26 @@
 					// helper
 					function update_color(color_new) {
 						color_current = color_new;
-						this.setAttribute('material', 'color', color_current);		
+						el_sinupret_display.setAttribute('material', 'color', color_current);		
 					}
 					
 					// events
 					this.el.addEventListener('click', function (evt) {	
+						var data = { foo: 'bar' }
+						var event = new CustomEvent('myCustomEvent', { detail: data })
+						window.parent.document.dispatchEvent(event)
+
+
+
 						// target not reached yet
 						if (sinupret_taken <= sinupret_target - 1) {
 							sinupret_taken = sinupret_taken + 1;
 							
-							// update text - Why this only works if this block is executed before color change?!
+							// update text - NOT ANYMORE --> CAN CHANGE Why this only works if this block is executed before color change?!
 							el_sinupret_display.setAttribute('value', `Sinupret\n${sinupret_taken}/${sinupret_target}`);
+
+
+
 							
 							// update color
 							if (sinupret_taken == sinupret_target) {
@@ -85,7 +94,7 @@
 						value="Sinupret\n0/2"
 					>
 					</a-text>
-					<!-- <a-box position = "-2 1 -3" material="src:https://i.imgur.com/wjobVTN.jpg"></a-box> -->
+					<!-- <a-box position = "-2 1 -3" material="src:https://i.imgur.com/.jpg"></a-box> -->
 				</a-entity>
 			</a-marker>
 			<a-marker type="pattern" preset="custom" url="/content/marker/tvr_pattern.patt">
