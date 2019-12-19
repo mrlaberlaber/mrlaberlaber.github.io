@@ -69,7 +69,7 @@
 			>
 				<a-entity
 					geometry="primitive: plane"
-					material="color: orange; opacity: 0.5;"
+					material="color: purple; opacity: 0.5;"
 					rotation="-90 0 0"
 					cursor-listener
 				>

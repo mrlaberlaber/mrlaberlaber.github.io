@@ -140,7 +140,7 @@ const introduction = {
     <hr>
     <h2>All other drugs</h2>
     <ul>
-        <li><a href="/content/marker/drugserErgo_pattern.png">Drugser Ergonomics</a></li>
+        <li><a href="/content/marker/drugser_ergo_pattern.png">Drugser Ergonomics</a></li>
         <li><a href="/content/marker/drugser_adult_strength_pattern.png">Drugser Adult Strength</a></li>
         <li><a href="/content/marker/all_pattern.png">all</a></li>
     </ul>
