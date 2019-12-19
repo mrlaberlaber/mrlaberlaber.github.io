@@ -123,7 +123,8 @@ const settings = {
 const introduction = {
     template: `
     <div>
-    <h1>Drug Intake Assisting App for Elderly People - Protoype</h1>
+    <h1>Drugser</h2>
+    <h2>Drug Intake Assisting App for Elderly People - Protoype</h2>
     <hr>
     <h2>How-To</h2>
     <ol>
