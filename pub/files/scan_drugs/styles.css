@@ -443,7 +443,7 @@
   -moz-box-shadow:3px 3px 1px rgba(0, 0, 0, 0.996078431372549);
   -webkit-box-shadow:3px 3px 1px rgba(0, 0, 0, 0.996078431372549);
   box-shadow:3px 3px 1px rgba(0, 0, 0, 0.996078431372549);
-  font-family:'Comic Sans MS Fett', 'Comic Sans MS Standard', 'Comic Sans MS';
+  font-family:'Comic Sans MS Bold', 'Comic Sans MS';
   font-weight:700;
   font-style:normal;
   font-size:25px;
@@ -457,7 +457,7 @@
   width:320px;
   height:55px;
   display:flex;
-  font-family:'Comic Sans MS Fett', 'Comic Sans MS Standard', 'Comic Sans MS';
+  font-family:'Comic Sans MS Bold', 'Comic Sans MS';
   font-weight:700;
   font-style:normal;
   font-size:25px;

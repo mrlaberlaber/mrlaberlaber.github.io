@@ -66,9 +66,13 @@ const User = {
 };
 
 const medicineScan = {
-    template: `<div ><iframe id="iframeScan" style="
-    height:100%;
-    width:100%; position:fixed; left: 0; right: 0; bottom: 0; top: 54px;" frameborder="0" src="/content/scan.php"></iframe>
+    template: `<div>
+    <iframe 
+        id="iframeScan"
+        style="height:100%; width:100%; position:fixed; left: 0; right: 0; bottom: 0; top: 54px;"
+        frameborder="0"
+        src="/content/scan.php">
+    </iframe>
 
     <v-btn
         fixed
@@ -130,7 +134,7 @@ const introduction = {
             (CAVE must be a somewhat modern browser)<br>
             (CAVE doesn't work inside WeChat under iOS)<br>
         </li>
-        <li>See also the <a href="/pub/#sc=2&c=1">mockup</a></li>
+        <li>See also the <a href="pub/#sc=2&c=1&id=897ybu&p=scan_drugs">mockup</a></li>
         <li>enjoy!</li>
     </ol>
     <hr>
